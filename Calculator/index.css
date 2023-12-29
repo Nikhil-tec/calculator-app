@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1634655377962-e6e7b446e7e9?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 0px;
+}
+
+
+#container{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#heading{
+    position: absolute;
+    top:2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#input-text{
+    text-align: center;
+    font-size: 1em;
+    margin-top: 5em;
+    width: 20em;
+    height: 3em;
+    border: none;
+    border-radius: 1em;
+    background-color: rgba(255, 255, 255, 0.401);
+}
+
+#btns{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0px;
+    margin-top: 2em;
+    border: none;
+    width: 50%;
+    height: 30vh;
+   
+
+}
+
+.btnValue{
+    font-weight: bold;
+    margin: 0;
+    border: none;
+    background: none;
+    width: 6.39em;
+    height: 3.5em;
+    background-color: rgba(255, 255, 255, 0.549);
+    
+}
+
+#back-btn{
+    margin-top: 10px;
+    width: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.549);
+   
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+
+}
+
+footer p{
+    margin-bottom: 5px;
+    color: gray
+}
+
+.btnValue:active{
+    scale: 1.1;
+}
+.btnValue:hover{
+    box-shadow: 0 0 10px #00fffb, 0 0 10px #0081bc;
+}
